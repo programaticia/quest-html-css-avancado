@@ -1,0 +1,40 @@
+@media (max-width: 1024px){
+    .hero .hero-image img{
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .hero-image img{
+        width: 100%;
+    }
+
+    .hero .hero-text h1{
+        font-size: 22px;
+    }
+
+    a .btn-register{
+        padding: 12px 70px;
+    }
+
+    .social a{
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 425px){
+    .logo img{
+        width: 150px;
+        margin-bottom: 60px;
+    }
+}
